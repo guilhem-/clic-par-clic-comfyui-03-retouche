@@ -106,7 +106,7 @@ neige dehors, derrière la fenêtre. » — le modèle retouche l'image qu'il vi
 - Module précédent : **Le workflow de l'organisation** —
   [`clic-par-clic-comfyui-02-workflow-organisation`](https://github.com/guilhem-/clic-par-clic-comfyui-02-workflow-organisation).
 - Module suivant : **Un outil qui choisit le format** (outil Open WebUI « Atelier d'images ») —
-  `clic-par-clic-comfyui-04-…` (à paraître).
+  [`clic-par-clic-comfyui-04-outil-formats`](https://github.com/guilhem-/clic-par-clic-comfyui-04-outil-formats).
 
 ## Licence
 
