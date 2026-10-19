@@ -1,3 +1,5 @@
 .env
 __pycache__/
+images-config.backup.json
+# Backup written by the earlier (French) version of the script: holds keys too.
 images-avant.json

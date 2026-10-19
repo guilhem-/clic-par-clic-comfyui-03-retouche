@@ -29,7 +29,7 @@
           "link": null
         },
         {
-          "localized_name": "choisissez le fichier à télécharger",
+          "localized_name": "choose file to upload",
           "name": "upload",
           "type": "IMAGEUPLOAD",
           "widget": {
@@ -48,7 +48,7 @@
           ]
         },
         {
-          "localized_name": "MASQUE",
+          "localized_name": "MASK",
           "name": "MASK",
           "type": "MASK",
           "links": []
@@ -60,11 +60,11 @@
         "ver": "0.8.2"
       },
       "widgets_values": [
-        "tasse.png",
+        "mug.png",
         "image"
       ],
       "widgets_values_named": {
-        "image": "tasse.png",
+        "image": "mug.png",
         "upload": "image"
       }
     },
@@ -95,7 +95,7 @@
       ],
       "outputs": [
         {
-          "localized_name": "ÉCHANTILLONNEUR",
+          "localized_name": "SAMPLER",
           "name": "SAMPLER",
           "type": "SAMPLER",
           "links": [
@@ -131,7 +131,7 @@
       "mode": 0,
       "inputs": [
         {
-          "localized_name": "nom_unet",
+          "localized_name": "unet_name",
           "name": "unet_name",
           "type": "COMBO",
           "widget": {
@@ -140,7 +140,7 @@
           "link": null
         },
         {
-          "localized_name": "dtype_poids",
+          "localized_name": "weight_dtype",
           "name": "weight_dtype",
           "type": "COMBO",
           "widget": {
@@ -151,7 +151,7 @@
       ],
       "outputs": [
         {
-          "localized_name": "MODÈLE",
+          "localized_name": "MODEL",
           "name": "MODEL",
           "type": "MODEL",
           "links": [
@@ -207,7 +207,7 @@
           "link": null
         },
         {
-          "localized_name": "appareil",
+          "localized_name": "device",
           "name": "device",
           "shape": 7,
           "type": "COMBO",
@@ -259,7 +259,7 @@
       "mode": 0,
       "inputs": [
         {
-          "localized_name": "nom_vae",
+          "localized_name": "vae_name",
           "name": "vae_name",
           "type": "COMBO",
           "widget": {
@@ -307,7 +307,7 @@
       "mode": 0,
       "inputs": [
         {
-          "localized_name": "largeur",
+          "localized_name": "width",
           "name": "width",
           "type": "INT",
           "widget": {
@@ -316,7 +316,7 @@
           "link": 172
         },
         {
-          "localized_name": "hauteur",
+          "localized_name": "height",
           "name": "height",
           "type": "INT",
           "widget": {
@@ -325,7 +325,7 @@
           "link": 174
         },
         {
-          "localized_name": "taille_lot",
+          "localized_name": "batch_size",
           "name": "batch_size",
           "type": "INT",
           "widget": {
@@ -382,7 +382,7 @@
           "link": 175
         },
         {
-          "localized_name": "méthode_d'agrandissement",
+          "localized_name": "upscale_method",
           "name": "upscale_method",
           "type": "COMBO",
           "widget": {
@@ -391,7 +391,7 @@
           "link": null
         },
         {
-          "localized_name": "mégapixels",
+          "localized_name": "megapixels",
           "name": "megapixels",
           "type": "FLOAT",
           "widget": {
@@ -400,7 +400,7 @@
           "link": null
         },
         {
-          "localized_name": "étapes_de_résolution",
+          "localized_name": "resolution_steps",
           "name": "resolution_steps",
           "type": "INT",
           "widget": {
@@ -452,7 +452,7 @@
       "mode": 0,
       "inputs": [
         {
-          "localized_name": "étapes",
+          "localized_name": "steps",
           "name": "steps",
           "type": "INT",
           "widget": {
@@ -461,7 +461,7 @@
           "link": null
         },
         {
-          "localized_name": "largeur",
+          "localized_name": "width",
           "name": "width",
           "type": "INT",
           "widget": {
@@ -470,7 +470,7 @@
           "link": 171
         },
         {
-          "localized_name": "hauteur",
+          "localized_name": "height",
           "name": "height",
           "type": "INT",
           "widget": {
@@ -538,7 +538,7 @@
       ],
       "outputs": [
         {
-          "localized_name": "CONDITIONNEMENT",
+          "localized_name": "CONDITIONING",
           "name": "CONDITIONING",
           "type": "CONDITIONING",
           "slot_index": 0,
@@ -554,10 +554,10 @@
         "ver": "0.8.2"
       },
       "widgets_values": [
-        "Consigne écrite par Open WebUI"
+        "Instruction written by Open WebUI"
       ],
       "widgets_values_named": {
-        "text": "Consigne écrite par Open WebUI"
+        "text": "Instruction written by Open WebUI"
       }
     },
     {
@@ -584,7 +584,7 @@
       ],
       "outputs": [
         {
-          "localized_name": "CONDITIONNEMENT",
+          "localized_name": "CONDITIONING",
           "name": "CONDITIONING",
           "type": "CONDITIONING",
           "links": [
@@ -614,7 +614,7 @@
       "mode": 0,
       "inputs": [
         {
-          "localized_name": "conditionnement",
+          "localized_name": "conditioning",
           "name": "conditioning",
           "type": "CONDITIONING",
           "link": 192
@@ -629,7 +629,7 @@
       ],
       "outputs": [
         {
-          "localized_name": "CONDITIONNEMENT",
+          "localized_name": "CONDITIONING",
           "name": "CONDITIONING",
           "type": "CONDITIONING",
           "links": [
@@ -667,7 +667,7 @@
       ],
       "outputs": [
         {
-          "localized_name": "largeur",
+          "localized_name": "width",
           "name": "width",
           "type": "INT",
           "links": [
@@ -676,7 +676,7 @@
           ]
         },
         {
-          "localized_name": "hauteur",
+          "localized_name": "height",
           "name": "height",
           "type": "INT",
           "links": [
@@ -685,7 +685,7 @@
           ]
         },
         {
-          "localized_name": "taille du lot",
+          "localized_name": "batch_size",
           "name": "batch_size",
           "type": "INT",
           "links": []
@@ -713,7 +713,7 @@
       "mode": 0,
       "inputs": [
         {
-          "localized_name": "conditionnement",
+          "localized_name": "conditioning",
           "name": "conditioning",
           "type": "CONDITIONING",
           "link": 191
@@ -728,7 +728,7 @@
       ],
       "outputs": [
         {
-          "localized_name": "CONDITIONNEMENT",
+          "localized_name": "CONDITIONING",
           "name": "CONDITIONING",
           "type": "CONDITIONING",
           "links": [
@@ -803,19 +803,19 @@
       "mode": 0,
       "inputs": [
         {
-          "localized_name": "bruit",
+          "localized_name": "noise",
           "name": "noise",
           "type": "NOISE",
           "link": 142
         },
         {
-          "localized_name": "guide",
+          "localized_name": "guider",
           "name": "guider",
           "type": "GUIDER",
           "link": 143
         },
         {
-          "localized_name": "échantillonneur",
+          "localized_name": "sampler",
           "name": "sampler",
           "type": "SAMPLER",
           "link": 144
@@ -827,7 +827,7 @@
           "link": 145
         },
         {
-          "localized_name": "image_latente",
+          "localized_name": "latent_image",
           "name": "latent_image",
           "type": "LATENT",
           "link": 146
@@ -835,7 +835,7 @@
       ],
       "outputs": [
         {
-          "localized_name": "sortie",
+          "localized_name": "output",
           "name": "output",
           "type": "LATENT",
           "links": [
@@ -843,7 +843,7 @@
           ]
         },
         {
-          "localized_name": "sortie_débruitée",
+          "localized_name": "denoised_output",
           "name": "denoised_output",
           "type": "LATENT",
           "links": []
@@ -871,7 +871,7 @@
       "mode": 0,
       "inputs": [
         {
-          "localized_name": "échantillons",
+          "localized_name": "samples",
           "name": "samples",
           "type": "LATENT",
           "link": 147
@@ -916,7 +916,7 @@
       "mode": 0,
       "inputs": [
         {
-          "localized_name": "graine_de_bruit",
+          "localized_name": "noise_seed",
           "name": "noise_seed",
           "type": "INT",
           "widget": {
@@ -927,7 +927,7 @@
       ],
       "outputs": [
         {
-          "localized_name": "BRUIT",
+          "localized_name": "NOISE",
           "name": "NOISE",
           "type": "NOISE",
           "links": [
@@ -965,7 +965,7 @@
       "mode": 0,
       "inputs": [
         {
-          "localized_name": "modèle",
+          "localized_name": "model",
           "name": "model",
           "type": "MODEL",
           "link": 139
@@ -977,7 +977,7 @@
           "link": 195
         },
         {
-          "localized_name": "négative",
+          "localized_name": "negative",
           "name": "negative",
           "type": "CONDITIONING",
           "link": 196
@@ -994,7 +994,7 @@
       ],
       "outputs": [
         {
-          "localized_name": "GUIDE",
+          "localized_name": "GUIDER",
           "name": "GUIDER",
           "type": "GUIDER",
           "links": [
@@ -1036,7 +1036,7 @@
           "link": 153
         },
         {
-          "localized_name": "préfixe_du_nom_de_fichier",
+          "localized_name": "filename_prefix",
           "name": "filename_prefix",
           "type": "STRING",
           "widget": {
@@ -1059,10 +1059,10 @@
         "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        "openwebui/retouche"
+        "openwebui/edit"
       ],
       "widgets_values_named": {
-        "filename_prefix": "openwebui/retouche"
+        "filename_prefix": "openwebui/edit"
       }
     }
   ],
